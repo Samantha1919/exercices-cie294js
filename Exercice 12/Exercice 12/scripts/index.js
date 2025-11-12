@@ -13,6 +13,11 @@ let thirdEpisode = new Episode("An Unexpected Climax", 60, false);
 // Create your array here
 // ====================================
 
+let episodes = [];
+episodes = [firstEpisode,secondEpisode,thirdEpisode];
+episodes = [secondEpisode,firstEpisode,thirdEpisode];
+
+
 // ====================================
 
 const body = document.querySelector("body");
