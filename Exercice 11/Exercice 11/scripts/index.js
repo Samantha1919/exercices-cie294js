@@ -1,5 +1,19 @@
 // Create a class here
 // =====================================
+class Episode {
+  constructor(title,duration,hasBeenWatched){
+    this.title = title;
+    this.duration = duration;
+    this.hasBeenWatched = hasBeenWatched;
+
+  }
+}
+
+// faut pas les creer dans la classe
+
+  let firstEpisode = new Episode("La rencontre",30,true);
+  let secondEpisode = new Episode("Le secret",29,false);
+  let thirdEpisode = new Episode("Le burger",31,false);
 
 // =====================================
 
